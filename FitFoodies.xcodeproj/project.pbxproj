@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD40F1F01B3DB10A00CAE2D5 /* BrazilFood3.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD40F1EF1B3DAC8F00CAE2D5 /* BrazilFood3.ttf */; };
+		CD7B35171B28635E00AB0EA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7B35161B28635E00AB0EA6 /* AppDelegate.swift */; };
+		CD7B35191B28635E00AB0EA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7B35181B28635E00AB0EA6 /* ViewController.swift */; };
+		CD7B351C1B28635E00AB0EA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7B351A1B28635E00AB0EA6 /* Main.storyboard */; };
+		CD7B351E1B28635E00AB0EA6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7B351D1B28635E00AB0EA6 /* Images.xcassets */; };
+		CD7B35211B28635E00AB0EA6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD7B351F1B28635E00AB0EA6 /* LaunchScreen.xib */; };
+		CD7B352D1B28635E00AB0EA6 /* FitFoodiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7B352C1B28635E00AB0EA6 /* FitFoodiesTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD7B35271B28635E00AB0EA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD7B35091B28635E00AB0EA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD7B35101B28635E00AB0EA6;
+			remoteInfo = FitFoodies;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD40F1EF1B3DAC8F00CAE2D5 /* BrazilFood3.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BrazilFood3.ttf; sourceTree = "<group>"; };
+		CD7B35111B28635E00AB0EA6 /* FitFoodies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitFoodies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD7B35151B28635E00AB0EA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD7B35161B28635E00AB0EA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD7B35181B28635E00AB0EA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD7B351B1B28635E00AB0EA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD7B351D1B28635E00AB0EA6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD7B35201B28635E00AB0EA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CD7B35261B28635E00AB0EA6 /* FitFoodiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitFoodiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD7B352B1B28635E00AB0EA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD7B352C1B28635E00AB0EA6 /* FitFoodiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitFoodiesTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD7B350E1B28635E00AB0EA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7B35231B28635E00AB0EA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD7B35081B28635E00AB0EA6 = {
+			isa = PBXGroup;
+			children = (
+				CD7B35131B28635E00AB0EA6 /* FitFoodies */,
+				CD7B35291B28635E00AB0EA6 /* FitFoodiesTests */,
+				CD7B35121B28635E00AB0EA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD7B35121B28635E00AB0EA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD7B35111B28635E00AB0EA6 /* FitFoodies.app */,
+				CD7B35261B28635E00AB0EA6 /* FitFoodiesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD7B35131B28635E00AB0EA6 /* FitFoodies */ = {
+			isa = PBXGroup;
+			children = (
+				CD7B35161B28635E00AB0EA6 /* AppDelegate.swift */,
+				CD7B35181B28635E00AB0EA6 /* ViewController.swift */,
+				CD7B351A1B28635E00AB0EA6 /* Main.storyboard */,
+				CD7B35141B28635E00AB0EA6 /* Supporting Files */,
+			);
+			path = FitFoodies;
+			sourceTree = "<group>";
+		};
+		CD7B35141B28635E00AB0EA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD7B352A1B28635E00AB0EA6 /* Supporting Files */,
+				CD7B351F1B28635E00AB0EA6 /* LaunchScreen.xib */,
+				CD7B351D1B28635E00AB0EA6 /* Images.xcassets */,
+				CD7B35151B28635E00AB0EA6 /* Info.plist */,
+				CD40F1EF1B3DAC8F00CAE2D5 /* BrazilFood3.ttf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD7B35291B28635E00AB0EA6 /* FitFoodiesTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD7B352C1B28635E00AB0EA6 /* FitFoodiesTests.swift */,
+			);
+			path = FitFoodiesTests;
+			sourceTree = "<group>";
+		};
+		CD7B352A1B28635E00AB0EA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD7B352B1B28635E00AB0EA6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			path = FitFoodiesTests;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD7B35101B28635E00AB0EA6 /* FitFoodies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD7B35301B28635E00AB0EA6 /* Build configuration list for PBXNativeTarget "FitFoodies" */;
+			buildPhases = (
+				CD7B350D1B28635E00AB0EA6 /* Sources */,
+				CD7B350E1B28635E00AB0EA6 /* Frameworks */,
+				CD7B350F1B28635E00AB0EA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FitFoodies;
+			productName = FitFoodies;
+			productReference = CD7B35111B28635E00AB0EA6 /* FitFoodies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD7B35251B28635E00AB0EA6 /* FitFoodiesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD7B35331B28635E00AB0EA6 /* Build configuration list for PBXNativeTarget "FitFoodiesTests" */;
+			buildPhases = (
+				CD7B35221B28635E00AB0EA6 /* Sources */,
+				CD7B35231B28635E00AB0EA6 /* Frameworks */,
+				CD7B35241B28635E00AB0EA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD7B35281B28635E00AB0EA6 /* PBXTargetDependency */,
+			);
+			name = FitFoodiesTests;
+			productName = FitFoodiesTests;
+			productReference = CD7B35261B28635E00AB0EA6 /* FitFoodiesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD7B35091B28635E00AB0EA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Whitney Lauren";
+				TargetAttributes = {
+					CD7B35101B28635E00AB0EA6 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					CD7B35251B28635E00AB0EA6 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = CD7B35101B28635E00AB0EA6;
+					};
+				};
+			};
+			buildConfigurationList = CD7B350C1B28635E00AB0EA6 /* Build configuration list for PBXProject "FitFoodies" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD7B35081B28635E00AB0EA6;
+			productRefGroup = CD7B35121B28635E00AB0EA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD7B35101B28635E00AB0EA6 /* FitFoodies */,
+				CD7B35251B28635E00AB0EA6 /* FitFoodiesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD7B350F1B28635E00AB0EA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD40F1F01B3DB10A00CAE2D5 /* BrazilFood3.ttf in Resources */,
+				CD7B351C1B28635E00AB0EA6 /* Main.storyboard in Resources */,
+				CD7B35211B28635E00AB0EA6 /* LaunchScreen.xib in Resources */,
+				CD7B351E1B28635E00AB0EA6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7B35241B28635E00AB0EA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD7B350D1B28635E00AB0EA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7B35191B28635E00AB0EA6 /* ViewController.swift in Sources */,
+				CD7B35171B28635E00AB0EA6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7B35221B28635E00AB0EA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7B352D1B28635E00AB0EA6 /* FitFoodiesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD7B35281B28635E00AB0EA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD7B35101B28635E00AB0EA6 /* FitFoodies */;
+			targetProxy = CD7B35271B28635E00AB0EA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD7B351A1B28635E00AB0EA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD7B351B1B28635E00AB0EA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD7B351F1B28635E00AB0EA6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD7B35201B28635E00AB0EA6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD7B352E1B28635E00AB0EA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD7B352F1B28635E00AB0EA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD7B35311B28635E00AB0EA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = FitFoodies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD7B35321B28635E00AB0EA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = FitFoodies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD7B35341B28635E00AB0EA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FitFoodiesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitFoodies.app/FitFoodies";
+			};
+			name = Debug;
+		};
+		CD7B35351B28635E00AB0EA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FitFoodiesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitFoodies.app/FitFoodies";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD7B350C1B28635E00AB0EA6 /* Build configuration list for PBXProject "FitFoodies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7B352E1B28635E00AB0EA6 /* Debug */,
+				CD7B352F1B28635E00AB0EA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD7B35301B28635E00AB0EA6 /* Build configuration list for PBXNativeTarget "FitFoodies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7B35311B28635E00AB0EA6 /* Debug */,
+				CD7B35321B28635E00AB0EA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD7B35331B28635E00AB0EA6 /* Build configuration list for PBXNativeTarget "FitFoodiesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7B35341B28635E00AB0EA6 /* Debug */,
+				CD7B35351B28635E00AB0EA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD7B35091B28635E00AB0EA6 /* Project object */;
+}
